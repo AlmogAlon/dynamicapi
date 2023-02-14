@@ -1,0 +1,11 @@
+{
+    "name": "kanye",
+    "expression": "query.birth_year < 2000 and query.name[0] != 'A' and query.name[0] != 'Z'",
+    "actions": [
+      {
+        "type": "url",
+        "method": "GET",
+        "url": "https://api.kanye.rest",
+        "field": "quote"
+      }]
+}

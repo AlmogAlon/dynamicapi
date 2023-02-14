@@ -1,0 +1,9 @@
+{
+  "query": {
+    "fields":
+      {
+        "name": "string",
+        "birth_year": "int"
+      }
+  }
+}

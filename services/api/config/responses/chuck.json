@@ -1,0 +1,11 @@
+{
+    "name": "chuck",
+    "expression": "query.birth_year <= 2000",
+    "actions": [
+      {
+        "type": "url",
+        "method": "GET",
+        "url": "https://api.chucknorris.io/jokes/random",
+        "field": "value"
+      }]
+}

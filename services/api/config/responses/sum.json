@@ -1,0 +1,9 @@
+{
+    "name": "namesum",
+    "expression": "query.name[0] == 'A'",
+    "actions": [
+      {
+        "type": "eval",
+        "expression": "query.name[0] + query.name[1]"
+      }]
+}

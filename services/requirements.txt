@@ -1,0 +1,8 @@
+black
+bottle
+python-dotenv
+mockredispy==2.9.3
+redis
+requests
+pytest
+webtest
